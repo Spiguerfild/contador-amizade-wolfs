@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-
+import './style.css';
 export const Contador = () => {
   const [timeElapsed, setTimeElapsed] = useState(calculateTimeElapsed());
 
@@ -46,8 +46,11 @@ export const Contador = () => {
 
   return (
     <div className="p-8 rounded-lg text-white">
-      <h2 className="text-3xl text-primary font-bold mb-6 text-center">
-        Countup Timer
+      <h1 className="text-6xl text-shadow text-primary font-bold mb-6 text-center">
+        Dark Wolf
+      </h1>
+      <h2 className="text-1xl text-primary font-bold mb-6 text-center">
+        A Origem
       </h2>
       <div className="flex justify-center space-x-4">
         <TimeCircle label="Years" value={timeElapsed.years} />
