@@ -28,7 +28,9 @@ export default {
           'base-300': '#313131',
         },
         valentine:{
-          ...require('daisyui/src/theming/themes')['valentine']
+          ...require('daisyui/src/theming/themes')['valentine'],
+          primary: '#ffb6c1',
+          'base-200': '#ff00cf',
         },
       },
       'light',
