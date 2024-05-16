@@ -27,10 +27,14 @@ export default {
           'base-100': '#101017',
           'base-300': '#313131',
         },
+        valentine:{
+          ...require('daisyui/src/theming/themes')['valentine']
+        },
       },
       'light',
       'dark',
       'forest',
+      'valentine',
     ],
   },
 };
