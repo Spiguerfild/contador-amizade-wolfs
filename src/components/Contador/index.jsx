@@ -65,7 +65,7 @@ export const Contador = () => {
 };
 
 const TimeCircle = ({ label, value }) => (
-  <div className="flex flex-col items-center justify-center w-24 h-24 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 rounded-full shadow-lg">
+  <div className="flex flex-col items-center justify-center w-24 h-24 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100 rounded-full shadow-lg border-4 border-primary">
     <div className="text-2xl font-bold">{value}</div>
     <div className="text-sm">{label}</div>
   </div>

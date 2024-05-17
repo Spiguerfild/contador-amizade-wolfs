@@ -19,16 +19,6 @@ export const NavbarTop = () => {
         </div>
       </div>
 
-      {/* <dialog id="my_modal_3" className="modal  bg-black bg-opacity-50">
-        <div className="modal-box max-w-full bg-transparent p-4">
-          <form method="dialog">
-            <button className="btn btn-md text-3xl btn-circle btn-ghost absolute right-2 top-2">
-              ✕
-            </button>
-          </form>
-          <img src={img} className="border border-primary rounded-lg mt-4" />
-        </div>
-      </dialog> */}
       <dialog id="my_modal_3" className="modal bg-black bg-opacity-90">
         <div className="modal-box max-w-full bg-transparent p-4 relative">
           <form method="dialog">
