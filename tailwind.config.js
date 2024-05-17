@@ -21,13 +21,13 @@ export default {
         },
         forest: {
           ...require('daisyui/src/theming/themes')['forest'],
-          primary: '#079211',
+          primary: '#5500ff',
           accent: '#ffffff',
           neutral: '#808080',
-          'base-100': '#101017',
+          'base-100': '#07070a',
           'base-300': '#313131',
         },
-        valentine:{
+        valentine: {
           ...require('daisyui/src/theming/themes')['valentine'],
           primary: '#ffb6c1',
           'base-200': '#ff00cf',
