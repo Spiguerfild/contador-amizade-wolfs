@@ -5,7 +5,7 @@ import img from '../../assets/wolfs-img.png';
 export const NavbarTop = () => {
   return (
     <>
-      <div className="navbar bg-base-200">
+      <div className="navbar bg-base-300">
         <div className="flex flex-1 items-center">
           <button
             className="px-1 btn btn-ghost"
@@ -37,11 +37,11 @@ export const NavbarTop = () => {
                 Dark Wolf (D.W)
               </h2>
               <p className="text-lg text-gray-300 mt-12">
-                Dark Wolf, also known as D.W, is a legendary figure known for
-                its mysterious and powerful presence. With a commanding aura and
-                unparalleled strength, D.W stands as a symbol of resilience and
-                tenacity. Embrace the spirit of the Dark Wolf and channel its
-                energy to overcome any obstacle in your path.
+                Dark Wolf, também conhecido como D.W, é uma figura lendária conhecida por
+                sua presença misteriosa e poderosa. Com uma aura de comando e
+                força incomparável, D.W permanece como um símbolo de resiliência e
+                tenacidade. Abrace o espírito do Lobo Negro e canalize seu
+                energia para superar qualquer obstáculo em seu caminho.
               </p>
             </div>
           </div>

@@ -25,18 +25,23 @@ export default {
           accent: '#ffffff',
           neutral: '#808080',
           'base-100': '#07070a',
-          'base-300': '#313131',
+          'base-300': '#230d4f',
         },
         valentine: {
           ...require('daisyui/src/theming/themes')['valentine'],
           primary: '#ffb6c1',
           'base-200': '#ff00cf',
         },
+        winter: {
+          ...require('daisyui/src/theming/themes')['winter'],
+          primary: '#c148ac',
+        }
       },
       'light',
       'dark',
       'forest',
       'valentine',
+      'winter',
     ],
   },
 };
